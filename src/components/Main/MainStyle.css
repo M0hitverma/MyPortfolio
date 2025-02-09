@@ -1,0 +1,282 @@
+.sparkle-background {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  padding: 0;
+  
+}
+@keyframes sparkle {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+.sparkle {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background-color: rgba(218, 165, 32, 0.9);
+  border-radius: 50%;
+  animation: sparkle 2s infinite ease-in-out;
+  box-shadow: 0px 0px 15px rgba(218, 165, 32, 0.7),
+    0px 0px 25px rgba(218, 165, 32, 0.5);
+}
+.sparkle-1 {
+    top: 10%;
+    left: 20%;
+    animation-delay: 0s;
+  }
+  .sparkle-2 {
+    top: 50%;
+    left: 50%;
+    animation-delay: 0.5s;
+  }
+  .sparkle-3 {
+    top: 80%;
+    left: 70%;
+    animation-delay: 1s;
+  }
+  .sparkle-4 {
+    top: 30%;
+    left: 90%;
+    animation-delay: 1.5s;
+  }
+  .sparkle-5 {
+    top: 60%;
+    left: 86%;
+    animation-delay: 2s;
+  }
+  .sparkle-6 {
+    top: 75%;
+    left: 95%;
+    animation-delay: 2.5s;
+  }
+  .sparkle-7 {
+    top: 25%;
+    left: 5%;
+    animation-delay: 3s;
+  }
+  .sparkle-8 {
+    top: 90%;
+    left: 5%;
+    animation-delay: 3.5s;
+  }
+  .sparkle-9 {
+    top: 5%;
+    left: 5%;
+    animation-delay: 2.4s;
+  }
+  .sparkle-10 {
+    top: 50%;
+    left: 10%;
+    animation-delay: 4.5s;
+  }
+  .sparkle-11 {
+    top: 5%;
+    left: 25%;
+    animation-delay: 1.5s;
+  }
+  .sparkle-12 {
+    top: 8%;
+    left: 53%;
+    animation-delay: 0.5s;
+  }
+  .sparkle-13 {
+    top: 30%;
+    left: 70%;
+    animation-delay: 1s;
+  }
+  .sparkle-14 {
+    top: 36%;
+    left: 60%;
+    animation-delay: 1.5s;
+  }
+  .sparkle-15 {
+    top: 30%;
+    left: 73%;
+    animation-delay: 2s;
+  }
+  .sparkle-16 {
+    top: 75%;
+    left: 40%;
+    animation-delay: 2.5s;
+  }
+  .sparkle-17 {
+    top: 35%;
+    left: 20%;
+    animation-delay: 3s;
+  }
+  .sparkle-18 {
+    top: 60%;
+    left: 67%;
+    animation-delay: 3.5s;
+  }
+  .sparkle-19 {
+    top: 95%;
+    left: 45%;
+    animation-delay: 4s;
+  }
+  .sparkle-20 {
+    top: 30%;
+    left: 77%;
+    animation-delay: 4.5s;
+  }
+  .sparkle-21 {
+    top: 5%;
+    left: 70%;
+    animation-delay: 0.5s;
+  }
+  .sparkle-22 {
+    top: 4%;
+    left: 77%;
+    animation-delay: 2.2s;
+  }
+  .sparkle-23 {
+    top: 7%;
+    left: 89%;
+    animation-delay: 2.3s;
+  }
+  .sparkle-24 {
+    top: 9%;
+    left: 87%;
+    animation-delay: 2.0s;
+  }
+  .sparkle-25 {
+    top: 12%;
+    left: 95%;
+    animation-delay: 1.2s;
+  }
+  .sparkle-26 {
+    top: 3%;
+    left: 67%;
+    animation-delay: 3.5s;
+  }
+  .sparkle-27 {
+    top: 1.5%;
+    left: 20%;
+    animation-delay: 0s;
+  }
+  .sparkle-28 {
+    top: 3.8%;
+    left: 45%;
+    animation-delay: 0.5s;
+  }
+  .sparkle-29 {
+    top: 80%;
+    left: 3.5%;
+    animation-delay: 1s;
+  }
+  .sparkle-30 {
+    top: 30%;
+    left: 2.5%;
+    animation-delay: 1.5s;
+  }
+  .sparkle-31 {
+    top: 60%;
+    left: 1.3%;
+    animation-delay: 2s;
+  }
+  .sparkle-32 {
+    top: 75%;
+    left: 28%;
+    animation-delay: 2.5s;
+  }
+  .sparkle-33 {
+    top: 25%;
+    left: 27.3%;
+    animation-delay: 3s;
+  }
+  .sparkle-34 {
+    top: 15%;
+    left: 28.5%;
+    animation-delay: 3.7s;
+  }
+  .sparkle-35 {
+    top: 5%;
+    left: 98%;
+    animation-delay: 1.4s;
+  }
+  .sparkle-36 {
+    top: 50%;
+    left: 99%;
+    animation-delay: 4.5s;
+  }
+  .sparkle-37 {
+    top: 35%;
+    left: 96%;
+    animation-delay: 1.5s;
+  }
+  .sparkle-38 {
+    top: 21%;
+    left: 98%;
+    animation-delay: 0.5s;
+  }
+  .sparkle-40 {
+    top: 90%;
+    left: 97%;
+    animation-delay: 1s;
+  }
+  .sparkle-41 {
+    top: 46%;
+    left: 60%;
+    animation-delay: 2.6s;
+  }
+  .sparkle-42 {
+    top: 58%;
+    left: 73%;
+    animation-delay: 2.2s;
+  }
+  .sparkle-43 {
+    top: 87%;
+    left: 19%;
+    animation-delay: 2.5s;
+  }
+  .sparkle-44 {
+    top: 43%;
+    left: 29.5%;
+    animation-delay: 3.7s;
+  }
+  .sparkle-45 {
+    top: 64%;
+    left: 47%;
+    animation-delay: 2.7s;
+  }
+  .sparkle-46 {
+    top: 74%;
+    left: 45%;
+    animation-delay: 4s;
+  }
+  .sparkle-47 {
+    top: 55%;
+    left: 18%;
+    animation-delay: 4.5s;
+  }
+  .sparkle-48 {
+    top: 5%;
+    left: 50%;
+    animation-delay: 1.5s;
+  }
+  .sparkle-49 {
+    top: 4%;
+    left: 73%;
+    animation-delay: 3.2s;
+  }
+  .sparkle-50 {
+    top: 1%;
+    left: 89%;
+    animation-delay: 0.5s;
+  }
+
+
+  
