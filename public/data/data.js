@@ -1,4 +1,4 @@
-import dp from "../assets/dp.JPG";
+import dp from "../assets/dp.jpg";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { IoIosDocument } from "react-icons/io";
